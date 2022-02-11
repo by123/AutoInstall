@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.jifung.by.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>4457B82632B041734DCB2A3FFC08DCB873C41278</string>
+				<key>dateExpires</key>
+				<string>2022/8/2</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>8RZJ4X25HR.com.by.com-jifung-by</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>8RZJ4X25HR</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>8RZJ4X25HR.com.by.com-jifung-by</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>com.jifung.by.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>ff8422bf-bf85-42a8-b868-8bf9a5008d1a</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>8RZJ4X25HR</string>
+				<key>name</key>
+				<string>jianjun qiu</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

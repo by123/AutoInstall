@@ -1,0 +1,11 @@
+*.apk
+*.iml
+*.DS_Store
+/.gradle/
+/.idea/
+/.svn/
+/build/
+/local.properties
+/*/build
+/app/release/
+/out

@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+mm in mm
+mmTests in mm, depends on:
+mm in mm (explicit)
+mmUITests in mm, depends on:
+mm in mm (explicit)

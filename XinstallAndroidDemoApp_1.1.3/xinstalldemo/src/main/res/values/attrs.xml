@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="tipsEditText">
+        <attr name="leftIconE" format="reference" />
+        <attr name="inputHint" format="string" />
+        <attr name="inputType" format="integer" >
+            <flag name="text" value="0x00000001" />
+            <flag name="number" value="0x00000002" />
+            <flag name="textWebPassword" value="0x000000e1" />
+        </attr>
+        <attr name="inputMaxLengthe" format="integer" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineErrorColor" format="color" />
+        <attr name="errorTextColor" format="color" />
+    </declare-styleable>
+</resources>

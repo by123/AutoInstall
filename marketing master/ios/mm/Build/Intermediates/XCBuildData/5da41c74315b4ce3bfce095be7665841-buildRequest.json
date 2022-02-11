@@ -1,0 +1,58 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "ab8501e0d1d75000d4f91680c19b6cef758aa08e8c83039696e2f26f7600591b"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates",
+      "buildProductsPath" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Products",
+      "derivedDataPath" : "/Users/by.huang/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/by.huang/Library/Developer/Xcode/DerivedData/mm-eznitvfwmiqmiageveiqzddghmvf/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/by.huang/Library/Developer/Xcode/DerivedData/mm-eznitvfwmiqmiageveiqzddghmvf/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

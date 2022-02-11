@@ -1,0 +1,68 @@
+{
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "ab8501e0d1d75000d4f91680c19b6cef758aa08e8c83039696e2f26f7600591b"
+    }
+  ],
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates",
+      "buildProductsPath" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Products",
+      "derivedDataPath" : "/Users/by.huang/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/by.huang/Library/Developer/Xcode/DerivedData/mm-eznitvfwmiqmiageveiqzddghmvf/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/by.huang/Library/Developer/Xcode/DerivedData/mm-eznitvfwmiqmiageveiqzddghmvf/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/InstallationBuildProductsLocation/OnDemandResources",
+          "BITCODE_GENERATION_MODE" : "bitcode",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "DSTROOT" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/IntermediateBuildFilesPath",
+          "SHARED_PRECOMPS_DIR" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/PrecompiledHeaders",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/BuildProductsPath/WatchKitSupport2",
+          "WATCHKIT_SUPPORT_FOLDER_PATH" : "/Users/by.huang/Desktop/marketing master/ios/mm/Build/Intermediates/ArchiveIntermediates/mm/BuildProductsPath/WatchKitSupport"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "archive",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

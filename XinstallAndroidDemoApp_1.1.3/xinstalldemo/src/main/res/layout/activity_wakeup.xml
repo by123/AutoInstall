@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4"
+    tools:context="com.scrat.mm2.sample.SimpleMainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="48dp"
+            android:scaleType="center"
+            android:layout_height="48dp"
+            android:src="@mipmap/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="一键跳转"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/install"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_card_home">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:lineSpacingExtra="6dp"
+            android:text="1、注册登录后，创建应用。
+\n2、查看集成文档，按照说明完成SDK集成。
+\n3、Web集成JS SDK。配置好一键拉起参数。
+\n4、将集成完成的apk包上传到Xinstall平台。
+\n5、通过测试链接下载安装app。
+\n6、测试阶段，打开集成好的JS SDK的页面(或者Xinstall提供的测试网页)， 点击下载按钮即可跳转到app。"
+            android:textColor="#333"
+            android:textSize="14sp" />
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/btInstall"-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="38dp"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginBottom="50dp"-->
+<!--            android:background="@drawable/bg_bt_common"-->
+<!--            android:gravity="center"-->
+<!--            android:text="安装量统计"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="14sp" />-->
+
+    </RelativeLayout>
+
+</LinearLayout>
